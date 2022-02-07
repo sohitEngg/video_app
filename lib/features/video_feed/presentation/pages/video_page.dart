@@ -76,6 +76,6 @@ class _VideoPageState extends State<VideoPage> {
             height: 1,
           );
         },
-        itemCount: videos.length - 55);
+        itemCount: videos.length);
   }
 }
