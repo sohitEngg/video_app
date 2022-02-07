@@ -25,7 +25,6 @@ class _MyVideoPlayerState extends State<MyVideoPlayer> {
 
   final _videoPlayerOptions = VideoPlayerOptions(mixWithOthers: true);
 
-  // check if video link contains '_NOLOOP' or not
   bool get _isContainsNoLoop => true;
 
   @override
@@ -105,7 +104,6 @@ class _MyVideoPlayerState extends State<MyVideoPlayer> {
     );
   }
 
-  /// return Image from network url if url is valid, else return a sized-box
   _buildPlaceholderImage() {
     return Image.network(
       widget.fallbackImageUrl,
